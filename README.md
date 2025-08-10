@@ -13,13 +13,13 @@ A fully customizable **dynamic heatmap calendar** React component with light and
 ## 📦 Installation
 
 ```bash
-npm install dynamic-heatmap-react
+npm i dynamic-heatmap
 ````
 
 or
 
 ```bash
-yarn add dynamic-heatmap-react
+yarn add dynamic-heatmap
 ```
 
 ---
