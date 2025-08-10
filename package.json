@@ -1,0 +1,25 @@
+{
+  "name": "dynamic-heatmap",
+  "version": "1.0.0",
+  "description": "A customizable dynamic heatmap calendar component for React",
+  "main": "index.js",
+  "module": "index.js",
+  "files": ["src", "index.js", "README.md", "LICENSE"],
+  "keywords": ["react", "heatmap", "calendar", "component"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udayjayasanthosh/Dynamic_HeatMap.git"
+  },
+  "author": "Uday Jaya Santhosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/udayjayasanthosh/Dynamic_HeatMap/issues"
+  },
+  "homepage": "https://github.com/udayjayasanthosh/Dynamic_HeatMap#readme",
+   "peerDependencies": {
+    "react": ">=17.0.0"
+  }
+}
