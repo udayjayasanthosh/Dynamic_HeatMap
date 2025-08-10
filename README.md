@@ -1,6 +1,5 @@
 # Dynamic_HeatMap
-Got it ✅
-Here’s a **complete README.md** tailored for your `DynamicHeatMap` component so it looks professional when published to npm.
+
 
 ---
 
