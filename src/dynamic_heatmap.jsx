@@ -1,3 +1,4 @@
+import React from 'react';
 const DynamicHeatMap = ({
   year = new Date().getFullYear(),
   month = new Date().getMonth() + 1,

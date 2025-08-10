@@ -1,13 +1,25 @@
 {
   "name": "dynamic-heatmap",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A customizable dynamic heatmap calendar component for React",
-  "main": "index.js",
-  "module": "index.js",
-  "files": ["src", "index.js", "README.md", "LICENSE"],
-  "keywords": ["react", "heatmap", "calendar", "component"],
+  "main": "dist/dynamic_heatmap.js",
+  "module": "dist/dynamic_heatmap.js",
+  "files": [
+    "src",
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "heatmap",
+    "calendar",
+    "component"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\"",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +31,14 @@
     "url": "https://github.com/udayjayasanthosh/Dynamic_HeatMap/issues"
   },
   "homepage": "https://github.com/udayjayasanthosh/Dynamic_HeatMap#readme",
-   "peerDependencies": {
-    "react": ">=17.0.0"
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1"
   }
 }
